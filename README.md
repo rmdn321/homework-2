@@ -58,7 +58,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ### Links
 
 - Github Repository URL: [Github Repository](https://github.com/rmdn321/homework-2)
-- Github Pages URL: [Github Pages]()
+- Github Pages URL: [Github Pages](https://rmdn321.github.io/homework-2/)
 
 ## My process
 
