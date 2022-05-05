@@ -4,49 +4,82 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <title>Devi | My Portfolio | Full Stack Web Developer</title>
 
 </head>
-<body>
+<body id="home">
 
-  <header>
-    <h1>DEVI NALLAMMAI RAMASWAMY</h1>
+<header class="bg-green">
+  <div class="container" id="navbar">
+    <h1>DEVI NALLAMMAI RAMASWAMY</h1>     
     <ul>
-      <li><a href="#about-me"></a> About me</li>
-      <li><a href="#my-work"></a>My work</li>
-      <li><a href="#contact-me"></a>Contact me</li>
-    </ul>
-    <img src="./assets/images/Devi.jpeg" alt="Devi"> 
+      <li><a href="#about-me">About me</a></li>
+      <li><a href="#my-work">My work</a></li>
+      <li><a href="#contact-me">Contact me</a></li>
+    </ul>          
+  </div>
 </header>
 
-<section id="about-me">
-  <h2>About Me</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum molestias nesciunt consectetur ex, veritatis harum dolorum excepturi. Vitae, fugiat, eos, quia dolores magnam libero ullam quos porro blanditiis neque modi ea. Assumenda, officia repudiandae deleniti delectus laborum temporibus tempore, exercitationem eaque ut facere non cumque doloremque dolorem ea, omnis fugiat id. Sed distinctio a, facilis voluptatum possimus ullam repellendus cum, voluptatibus consequuntur, sapiente nisi minima! Dolorum maxime iusto magnam alias.</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur aperiam ducimus voluptas necessitatibus placeat obcaecati laboriosam, ratione omnis a assumenda, libero, perspiciatis ut. Modi ea eligendi commodi hic, maxime ex.</p>
-  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum commodi beatae sit facere magnam culpa, quibusdam earum ad debitis esse quae qui quia omnis itaque quisquam nulla maiores ut accusantium eligendi quod. Quibusdam repellat, sunt voluptas dolore molestias necessitatibus eos consequuntur ut quos dignissimos adipisci suscipit similique qui non dolores.</p>
-</section>
 
-<section id="my-work">
-  <h2>My Works</h2>
-  <img src="./assets/images/picture1.jpg" alt="">
-  <img src="./assets/images/picture2.jpg" alt="">
-  <img src="./assets/images/picture3.jpg" alt="">
-  <img src="./assets/images/picture4.jpg" alt="">
-  <img src="./assets/images/picture5.jpg" alt="">
-</section>
-
-<footer id="contact-me">
-  <h2>Contact Me</h2>
-  <div>
-    <div>Phone: (123)-456 7890</div>
-    <div><a href="#">Website</a></div>
+<section class="container" id="about-me">  
+  <h2 class="heading">About Me</h2>
+  <div id="about">
+    <img src="./assets/images/Devi.jpg" class="about-image-size border-orange" alt="Devi">
+    <div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa fuga eaque repudiandae accusamus sunt necessitatibus nisi rem nobis sequi voluptates ut, earum cumque aspernatur. Ad reprehenderit facilis rem quam deleniti dicta libero recusandae harum cupiditate doloribus error nemo quaerat, magni sit iste sequi quod ex consequuntur, corrupti aut omnis quisquam! Dolore tenetur nostrum cupiditate amet dolores eligendi explicabo minima qui. Dolore, qui doloribus. Quidem culpa doloremque adipisci cumque distinctio consectetur quos maiores dicta nobis fugiat, earum veniam id assumenda, nesciunt accusamus laudantium quibusdam sequi. Numquam minus iste non animi dolore quae, accusamus, nam velit, quas maxime eius exercitationem commodi.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, cum debitis aut, omnis voluptate ipsa quae ipsum corrupti, nobis enim officia id? Eaque tempore fuga id consequatur, aperiam illo!</p>    
+    </div>
   </div>
-  <div>    
-    <a href="https://github.com/">GitHub</a>
-    <a href="https://linkedin.com/">LinkedIn</a>
-    <a href="https://twitter.com/">Twitter</a>
-    <a href="https://facebook.com/">Facebook</a>    
-  </div> 
+</section>
+
+<section class="container" id="my-work">
+  <h2 class="heading">My Works</h2>
+  <div><a href="https://github.com/">
+    <p>Application 1</p>
+    <img src="./assets/images/picture1.jpg" class="border-orange" id="main-app" alt="Island surrounded by water and mountains">
+  </a></div>
+
+  <div class="other-apps">
+    <div><a href="https://github.com/">
+      <p>Application 2</p>
+      <img src="./assets/images/picture2.jpg" class="border-orange app-size" alt="Brown backdrop with flowers and greenery">
+    </a></div>
+    <div><a href="https://github.com/">
+      <p>Application 3</p>
+      <img src="./assets/images/picture3.jpg" class="border-orange app-size" alt="Flowers in front of the ocean">
+    </a></div>
+  </div>
+
+  <div class="other-apps">
+    <div><a href="https://github.com/">
+      <p>Application 4</p>
+      <img src="./assets/images/picture4.jpg" class="border-orange app-size" alt="Field of orange flowers">
+    </a></div>
+    <div><a href="https://github.com/">
+      <p>Application 5</p>
+      <img src="./assets/images/picture5.jpg" class="border-orange app-size" alt="Wooden bridge surrounded by trees">
+    </a></div> 
+  </div>
+</section>
+
+<footer class="bg-green" id="contact-me">
+  <div class="container contact">
+    <div>
+      <h2 class="heading">Contact Me</h2>    
+      <div>Phone: (123)-456 7890</div>
+      <div>Email: www.test@example.com</div>
+      <div><a href="#home">Visit my Website here</a></div> 
+    </div> 
+    <div>   
+      <ul>
+        <li><a href="https://github.com/">GitHub</a></li>
+        <li><a href="https://linkedin.com/">LinkedIn</a></li>
+        <li><a href="https://twitter.com/">Twitter</a></li>
+        <li><a href="https://facebook.com/">Facebook</a></li>
+      </ul>           
+    </div> 
+  </div>
 </footer>  
 
 </body>
