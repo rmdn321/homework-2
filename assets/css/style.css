@@ -147,7 +147,7 @@ h2 {
 }
 
 /* Media queries */
-/* Large smartphones */
+/* Tablets */
 @media screen and (max-width: 768px) {
 #navbar {
   display: block;
@@ -181,7 +181,7 @@ h2 {
 }
 }
 
-/* Small smartphones */
+/* Smartphones */
 @media screen and (max-width: 576px) {
   h1 {
     font-size: 30px;
