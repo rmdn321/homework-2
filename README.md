@@ -48,10 +48,14 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Screenshot
 **Normal screen size**
+
 ![Normal screen size](./assets/images/Screenshots/NormalScreen.png)
 **Tablet screen size**
+
 ![Tablet screen size](./assets/images/Screenshots/TabletScreen.png)
+
 **Smartphone screen size**
+
 ![Smartphone screen size](./assets/images/Screenshots/SmartphoneScreen.png)
 
 
