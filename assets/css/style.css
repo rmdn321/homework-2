@@ -1,11 +1,14 @@
+/* Importing the font used from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
 
+/* Declaring the main colors used in the website as variables */
 :root {
   --cream: #faedcd;
   --green: #606c38;
   --orange: #e85d04;
 }
 
+/* Universal reset */
 * {
   box-sizing: border-box;
   margin:0;
@@ -13,6 +16,7 @@
   font-family: 'Oswald', sans-serif;
 }
 
+/* Element level CSS declaration */
 body {
   background-color: var(--cream);
   line-height: 2rem;
@@ -35,6 +39,7 @@ h2 {
   font-size: 34px;
 }
 
+/* CSS for the navbar */
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -61,9 +66,12 @@ h2 {
   border-bottom: 5px solid var(--cream);
 }
 
-#my-work div a {
-  color: black;
-  text-align: center;
+/* CSS for the about me section */
+#about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
 }
 
 .about-image-size {
@@ -71,11 +79,10 @@ h2 {
   margin-right: 30px;  
 }
 
-#about {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
- 
+/* CSS for the my work section */
+#my-work div a {
+  color: black;
+  text-align: center;
 }
 
 #main-app {
@@ -86,17 +93,16 @@ h2 {
 
 .other-apps {
   display: flex;
-  justify-content: space-around;
-  
+  justify-content: space-around;  
 }
 
 .app-size {
   display: flex;
   width: 400px;
   height: 300px;
-  /* margin-right: 20px; */
 }
 
+/* CSS for the contact information footer */
 .contact {
   display: flex;
   justify-content: space-between;
@@ -119,6 +125,7 @@ h2 {
   border-bottom: 5px solid var(--cream);
 }
 
+/* Reusable CSS classes for page container, heading, background and border */
 .container {
   max-width: 1100px;
   margin: 30px auto;
@@ -139,10 +146,8 @@ h2 {
   border: 10px solid var(--orange);
 }
 
-.mt-30px {
-  margin-top: 30px;
-}
-
+/* Media queries */
+/* Large smartphones */
 @media screen and (max-width: 768px) {
 #navbar {
   display: block;
@@ -176,6 +181,7 @@ h2 {
 }
 }
 
+/* Small smartphones */
 @media screen and (max-width: 576px) {
   h1 {
     font-size: 30px;
