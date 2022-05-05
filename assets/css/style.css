@@ -120,7 +120,7 @@ h2 {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1100px;
   margin: 30px auto;
   padding: 0 2rem;
   overflow: hidden;
@@ -144,8 +144,15 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-#navbar ul {
+#navbar {
   display: block;
+  text-align: center;
+}
+
+#navbar ul {
+  margin: 10px 0px -10px 0px;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #navbar ul li{
@@ -170,6 +177,33 @@ h2 {
 }
 
 @media screen and (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  #navbar {
+    display: block;
+    text-align: center;
+  }
+  
+  #navbar ul {
+    margin: 10px 0px -10px 0px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  #navbar ul li{
+    padding: 5px;
+    margin: 1rem 0;
+  }
 
 .app-size{
   width: 90%;
